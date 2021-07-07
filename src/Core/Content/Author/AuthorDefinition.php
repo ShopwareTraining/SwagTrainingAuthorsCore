@@ -4,6 +4,7 @@ namespace SwagTraining\AuthorsCore\Core\Content\Author;
 
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\CreatedAtField;
+use Shopware\Core\Framework\DataAbstractionLayer\Field\CustomFields;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\PrimaryKey;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\Required;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\IdField;
@@ -55,6 +56,7 @@ class AuthorDefinition extends EntityDefinition
             new StringField('birthdate', 'birthdate'),
             new CreatedAtField(),
             new UpdatedAtField(),
+            (new CustomFields())
         ]);
     }
 }
