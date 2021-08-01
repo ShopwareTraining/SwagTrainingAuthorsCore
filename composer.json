@@ -1,5 +1,5 @@
 {
-    "name": "swag-training/authors-core",
+    "name": "swag-training/shopware6-authors-core",
     "version": "1.0.0",
     "description": "Authors core",
     "type": "shopware-platform-plugin",
@@ -12,7 +12,7 @@
     "extra": {
         "shopware-plugin-class": "SwagTraining\\AuthorsCore\\SwagTrainingAuthorsCore",
         "label": {
-            "en-GB": "Authors core"
+            "en-GB": "Swag Training - Authors Core"
         }
     }
 }
