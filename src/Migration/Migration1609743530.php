@@ -20,7 +20,6 @@ CREATE TABLE IF NOT EXISTS `author` (
     `name` VARCHAR(255) COLLATE utf8mb4_unicode_ci,
     `description` VARCHAR(255) COLLATE utf8mb4_unicode_ci,
     `birthdate` VARCHAR(255) COLLATE utf8mb4_unicode_ci,
-    `custom_fields` json DEFAULT NULL,
     `created_at` DATETIME(3) NOT NULL,
     `updated_at` DATETIME(3),
     PRIMARY KEY (`id`)
