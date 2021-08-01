@@ -4,7 +4,6 @@ namespace SwagTraining\AuthorsCore\Core\Content\Author;
 
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityIdTrait;
-use SwagTraining\AuthorsCore\Core\Content\Author\Field\TechnicalNameTrait;
 
 /**
  * Class AuthorEntity
@@ -13,8 +12,6 @@ use SwagTraining\AuthorsCore\Core\Content\Author\Field\TechnicalNameTrait;
 class AuthorEntity extends Entity
 {
     use EntityIdTrait;
-
-    use TechnicalNameTrait;
 
     /**
      * @var string
