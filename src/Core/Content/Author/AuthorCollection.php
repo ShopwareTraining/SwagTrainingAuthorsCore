@@ -4,10 +4,6 @@ namespace SwagTraining\AuthorsCore\Core\Content\Author;
 
 use Shopware\Core\Framework\DataAbstractionLayer\EntityCollection;
 
-/**
- * Class AuthorCollection
- * @package SwagTraining\AuthorsCore\Core\Content\Author
- */
 class AuthorCollection extends EntityCollection
 {
     protected function getExpectedClass(): string
